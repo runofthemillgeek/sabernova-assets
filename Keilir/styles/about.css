@@ -1,0 +1,115 @@
+.post h1 {
+    font-family: 'Dosis', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    color: rgb(255,0,0);
+    color: rgba(255,0,0,0.9);
+    padding-top: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.entry-content .postContentHeader {
+    margin-bottom: 30px;
+    position: relative;
+}
+.post h1.about-h1::after, .entry-content .postContentHeader::after {
+    content: '\0000A7';
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #666;
+    font-family: georgia;
+    font-size: 1.6rem;
+    background-color: #fff;
+    line-height: 1;
+    width: 30px;
+    text-align: center;
+    bottom: -13px;
+}
+.post h1.about-h1 {
+    position: relative;
+    font-style: normal;
+    text-shadow: none;
+    border-bottom: 1px solid rgb(231,231,231);
+    padding-bottom: 20px;
+}
+#Blog1 .post .entry-content div[dir="ltr"] h2 {
+    border: none;
+    font-weight: 400;
+}
+#author-main * {
+    box-sizing: border-box;
+}
+#author-main {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+	#author-header {
+		min-height: 400px;
+		background-position: center center;
+		position: relative;
+		font-family: 'Dosis', 'Open Sans', sans-serif !important;
+		font-size: 1em;
+		background-size: cover;
+	}
+	#author-header > div {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding-bottom: 30px;
+		padding-top: 20px;
+		z-index: 1;
+		color: #fff;
+		background-color: rgb(0,0,0);
+		background-color: rgba(0,0,0,0.5);
+		padding-left: 20px;
+		transition: padding-bottom 0.5s ease;
+	}
+	#author-header > div h2 {
+		font-size: 4em;
+		color: rgba(255,255,255,0.9);
+	}
+	#Blog1 #author-header > div h2::after {
+	    content: '';
+	    display: none;
+	}
+	#author-header::after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: linear-gradient(to top right, rgba(255,0,0,0.9), rgba(255,0,0,0.65) 40%,rgba(255,215,0,0.7));
+		transition: opacity 0.5s ease;
+	}
+	#author-main:hover #author-header::after {
+		opacity: 0.4;
+	}
+	#author-main:hover #author-header > div {
+		padding-bottom: 15px;
+	}
+	#follow-author i {
+		margin-right: 10px;
+	}
+	#follow-author i.fa-facebook {
+		color: #3B5998;
+	}
+	#follow-author i.fa-twitter {
+		color: #4099FF;
+	}
+	#follow-author i.fa-linkedin {
+		color: #0177B5;
+	}
+	#follow-author i.fa-instagram {
+		color: #333333;
+	}
+	#follow-author i.fa-google-plus {
+		color: #DD4B39;
+	}
+	#follow-author i.fa-foursquare {
+		color: #F94877;
+	}

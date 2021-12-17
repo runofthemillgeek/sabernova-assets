@@ -1,0 +1,21 @@
+@media (min-width: 980px) {
+    
+}
+/*
+** Global Styles
+*/
+#masthead {
+    height: 85px;
+    border-bottom: 2px solid #eee;
+}
+.navbar .nav {
+    margin-top: 7px;
+}
+.navbar .nav > li.active, .navbar .nav > li:hover {
+    background: none;
+}
+.navbar .nav > li > a {
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
